@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 09 13:33:28 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14783 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestClass.loginTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: TestClass.loginTest<br/>
+<a href="#Output-1687702287" onClick='toggleBox("Output-1687702287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687702287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687702287">
+Username and Password enter successfully<br/>
+Successfully clicks on Menu Button<br/>
+Successfully perform browser Back<br/>
+Successfully clicks on Add To Cart Button<br/>
+The Header name is :Products<br/>
+Header is Matched and Verified Successfully<br/>
+Successfully clicks On Cart Button<br/>
+The your cart page text is :Your Cart<br/>
+Your Cart Page Header Text is Matched and Verified Successfully<br/>
+Successfully clicks On Checkout Button<br/>
+The your cart page text is :Checkout: Your Information<br/>
+Checkout: Your Information Page Header Text is Matched and Verified Successfully<br/>
+Successfully Enters Details and submit<br/>
+The your cart page text is :Checkout: Overview<br/>
+Checkout: Overview Page Header Text is Matched and Verified Successfully<br/>
+The Total Price Text is :Total: $53.99<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>TestClass.loginTest@75d3a5e0</td></tr>
+</table><p>
+</body>
+</html>
